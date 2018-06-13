@@ -1,0 +1,25 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
+  <TemplateData>
+    <Name>My Xamarin.Forms Template</Name>
+    <Description>My Xamarin.Forms Template</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>App</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage></PreviewImage> 
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+		<ProjectTemplateLink ProjectName="$safeprojectname$">MyXamarinFormsTemplate\MyTemplate.vstemplate</ProjectTemplateLink>
+		<ProjectTemplateLink ProjectName="$safeprojectname$.Android" CopyParameters="true">MyXamarinFormsTemplate.Android\MyTemplate.vstemplate</ProjectTemplateLink>
+		<ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">MyXamarinFormsTemplate.iOS\MyTemplate.vstemplate</ProjectTemplateLink>
+	</ProjectCollection>
+  </TemplateContent>
+</VSTemplate>
